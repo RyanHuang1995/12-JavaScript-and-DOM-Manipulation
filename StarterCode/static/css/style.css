@@ -75,6 +75,8 @@ select {
 
 #table-area th {
   text-align: center;
+  color: black;
+  font-size: 3ch;
 }
 
 #table-area th:first-child,
@@ -189,6 +191,13 @@ select {
   .hero h1 {
     animation: smaller-title 1.2s forwards linear;
   }
+}
+
+td {
+  border: 1px solid white;
+  font-size: 2ch;
+  color: white;
+  text-align: center;
 }
 
 /* keyframe animations which will be used to animate the title */
